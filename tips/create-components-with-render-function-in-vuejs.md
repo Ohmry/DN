@@ -5,6 +5,15 @@
 import Vue from 'vue'
 
 export default Vue.component('component-template', {
+  props: ['role'],
+  data () {
+    ...
+  },
+  computed: {
+    isTest () {
+      return ...
+    }
+  }
   return (h) {
     return h(
       'h1',     // html 태그
@@ -39,3 +48,9 @@ export default {
 ...
 </style>
 ```
+
+### render 함수 형태에서 data (), computed () 쓰는 방법
+  - https://stackoverflow.com/questions/46910101/vuejs-how-to-access-computed-values-in-render-function
+
+### render 함수 형태에서 props 쓰는 방법
+  - https://stackoverflow.com/questions/44013140/how-to-pass-props-to-class-using-vuejs-render-function
