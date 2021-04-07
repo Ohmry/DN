@@ -6,3 +6,11 @@
 
 
 - [Material 아이콘 SVG](https://freeicons.io/icon-list/material-icons-toggle)
+- [리스트아이콘](https://freeicons.io/material-icons-editor/format-list-bulleted-icon-9991)
+- [LinearScaleIcon](https://freeicons.io/material-icons-editor/linear-scale-icon-10012)
+- [칸반](https://freeicons.io/material-icons-editor/table-chart-icon-10027)
+- [검색](https://freeicons.io/material-icons-action/search-icon-16011)
+- [대시보드](https://freeicons.io/material-icons-action/dashboard-icon-15901)
+- [HELP](https://freeicons.io/material-icons-action/help-outline-icon-15941)
+- [체크박스(공란)](https://freeicons.io/material-icons-toggle/check-box-outline-blank-icon-15586)
+- [체크박스(체크)](https://freeicons.io/material-icons-toggle/check-box-icon-15585)
