@@ -1,4 +1,6 @@
 # Knowledge
+  - [오라클 CUROSR 사용 예제](knowledge/oracle-cursor-use-example.md)
+  - [오라클 WHILE 사용 예제](knowledge/oracle-while-use-example.md)
 
 # Tips
   - [HTML에서 SVG 아이콘 사용방법](tips/using-svg-icon-on-html.md)
