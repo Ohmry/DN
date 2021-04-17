@@ -12,3 +12,4 @@
   - [Github 프로필 꾸미기 블로그 글](https://velog.io/@woo0_hooo/Github-github-profile-%EA%B0%84%EC%A7%80%EB%82%98%EA%B2%8C-%EA%BE%B8%EB%AF%B8%EA%B8%B0)
   - [온라인에서 Markdown 작업을 할 수 있는 곳](https://dillinger.io/)
   - [Github Profile에 넣을 수 있는 뱃지 아이콘 모음](https://simpleicons.org/)
+  - [Git 관련 사이트](https://backlog.com/git-tutorial/kr/stepup/stepup1_1.html)
