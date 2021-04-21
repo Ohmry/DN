@@ -17,7 +17,7 @@
   - [Properties 파일이 깨져서 나올 때, 한글 인코딩 설정하는 방법](docs/intellij.md#properties-파일이-깨져서-나올-때-한글-인코딩-설정하는-방법)
 
 - **Docker**
-  - [Window OS에서 Docker 설치하는 방법](#window-os에서-docker-설치하는-방법)
+  - [Window OS에서 Docker 설치하는 방법](docs/docker.md#window-os에서-docker-설치하는-방법)
 
 - **미분류**
   - [HTML에서 SVG 아이콘 사용방법](docs/etc.md#html에서-svg-아이콘-사용방법)
