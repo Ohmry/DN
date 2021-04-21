@@ -13,6 +13,9 @@
 - **Electron**
   - [프레임이 없는 창을 만들 때, 드래그 기능 추가하는 방법](docs/electron.md#프레임이-없는-창을-만들-때-드래그-기능-추가하는-방법)
 
+- ** IntelliJ**
+  - [Properties 파일이 깨져서 나올 때, 한글 인코딩 설정하는 방법](docs/intellij.md#properties-파일이-깨져서-나올-때-한글-인코딩-설정하는-방법)
+
 - **미분류**
   - [HTML에서 SVG 아이콘 사용방법](docs/etc.md#html에서-svg-아이콘-사용방법)
   - [CSS 레이아웃에서 2개의 Element를 양쪽으로 정렬하고 싶을 때](docs/etc.md#css-레이아웃에서-2개의-element를-양쪽으로-정렬하고-싶을-때)
