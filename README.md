@@ -19,6 +19,10 @@
 - **Docker**
   - [Window OS에서 Docker 설치하는 방법](docs/docker.md#window-os에서-docker-설치하는-방법)
 
+- **Spring**
+  - [배치에서 Step 나누는 방법](#배치에서-step-나누는-방법
+
+
 - **미분류**
   - [HTML에서 SVG 아이콘 사용방법](docs/etc.md#html에서-svg-아이콘-사용방법)
   - [CSS 레이아웃에서 2개의 Element를 양쪽으로 정렬하고 싶을 때](docs/etc.md#css-레이아웃에서-2개의-element를-양쪽으로-정렬하고-싶을-때)
