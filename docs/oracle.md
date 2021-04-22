@@ -2,6 +2,7 @@
   - [임시테이블 생성 예제](#임시테이블-생성-예제)
   - [커서(CURSOR) 사용 예제](#커서cursor-사용-예제)
   - [반복문(WHILE) 사용 예제](#반복문while-사용-예제)
+  - [시퀀스 제어 예제](#시퀀스-제어-예제)
   
 ## 임시테이블 생성 예제
 ### 세션 임시 테이블 (ON COMMIT PRESERVE ROWS)
@@ -60,4 +61,19 @@ BEGIN
   END LOOP;
 
 END;
+```
+
+## 시퀀스 제어 예제
+``` sql
+-- 시퀀스의 LastValue 값 확인
+SELECT * FROM USER_SEQUENCES WHERE SEQUENCE_NAME = ${시퀀스명};
+
+-- 시퀀스 증가량 조정
+ALTER SEQUENCE ${시퀀스명} INCREMENT BY ${증가량};
+
+-- 시퀀스 증가
+SELECT ${시퀀스명}.NEXTVAL FROM DUAL;
+
+-- 시퀀스 증가량을 원래대로 돌려놓는다.
+ALTER SEQUENCE ${시퀀스명} INCREMENT BY 1;
 ```

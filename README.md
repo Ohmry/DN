@@ -3,6 +3,7 @@
   - [임시테이블 생성 예제](docs/oracle.md#임시테이블-생성-예제)
   - [커서(CURSOR) 사용 예제](docs/oracle.md#커서cursor-사용-예제)
   - [반복문(WHILE) 사용 예제](docs/oracle.md#반복문while-사용-예제)
+  - [시퀀스 제어 예제](docs/oracle.md#시퀀스-제어-예제)
 
 - **Vuejs**
   - [Render 함수를 이용한 Component 작성 방법](docs/vuejs.md#vuejs에서-render-함수를-이용한-component-작성-방법)
@@ -22,7 +23,6 @@
 - **Spring**
   - [배치에서 Step 나누는 방법](#배치에서-step-나누는-방법)
   - [배치의 Step 간 데이터를 공유하는 방법](https://marobiana.tistory.com/133)
-
 
 - **미분류**
   - [HTML에서 SVG 아이콘 사용방법](docs/etc.md#html에서-svg-아이콘-사용방법)
