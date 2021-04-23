@@ -23,6 +23,7 @@
 - **Spring**
   - [배치에서 Step 나누는 방법](docs/spring.md#배치에서-step-나누는-방법)
   - [배치의 Step 간 데이터를 공유하는 방법](https://marobiana.tistory.com/133)
+  - [JUnit에서 @After와 @AfterClass의 차이점](docs/spring.md#junit에서-after와-afterclass의-차이점)
 
 - **Java**
   - [Map 객체 생성 예제](docs/java.md#map-객체-생성-예제)
