@@ -34,7 +34,8 @@ DECLARE
   FROM    ${TABLE};
 BEGIN
   OPEN I_CUR;
-
+  
+  LOOP
   FETCH I_CUR INTO I_BRCH_NO;
   EXIT WHEN I_CUR %NOTFOUND;
     -- 루프 처리구문
