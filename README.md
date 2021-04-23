@@ -26,7 +26,7 @@
 
 - **Java**
   - [Map 객체 생성 예제](docs/java.md#map-객체-생성-예제)
-  - [ArrayList 객체 생성 예제](docs/java.md#arraylist-객체-생성-예제)]
+  - [ArrayList 객체 생성 예제](docs/java.md#arraylist-객체-생성-예제)
 
 - **미분류**
   - [HTML에서 SVG 아이콘 사용방법](docs/etc.md#html에서-svg-아이콘-사용방법)
