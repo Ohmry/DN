@@ -3,6 +3,8 @@
   - [커서(CURSOR) 사용 예제](#커서cursor-사용-예제)
   - [반복문(WHILE) 사용 예제](#반복문while-사용-예제)
   - [시퀀스 제어 예제](#시퀀스-제어-예제)
+  - [PIVOT 예제](#pivot-예제)
+  - [UNPIVOT 예제](#unpivot-예제)
   
 ## 임시테이블 생성 예제
 ### 세션 임시 테이블 (ON COMMIT PRESERVE ROWS)
@@ -77,4 +79,35 @@ SELECT ${시퀀스명}.NEXTVAL FROM DUAL;
 
 -- 시퀀스 증가량을 원래대로 돌려놓는다.
 ALTER SEQUENCE ${시퀀스명} INCREMENT BY 1;
+```
+
+## PIVOT 예제
+``` sql
+WITH SD AS (
+  SELECT 'A' AS TY, 'JAN' AS MM, 10 AS CNT FROM DUAL UNION ALL
+  SELECT 'A' AS TY, 'FEB' AS MM, 5 AS CNT FROM DUAL UNION ALL
+  SELECT 'B' AS TY, 'JAN' AS MM, 10 AS CNT FROM DUAL UNION ALL
+  SELECT 'C' AS TY, 'MAR' AS MM, 8 AS CNT FROM DUAL
+)
+SELECT  *
+FROM  SD
+PVIOT (
+    SUM(CNT)
+    FOR MM IN ('JAN', 'FEB', 'MAR')
+)
+```
+
+## UNPIVOT 예제
+``` sql
+WITH SD AS (
+  SELECT  'A' AS TY, 10 AS JAN, 5 AS FEB, 0 AS MAR FROM DUAL UNION ALL
+  SELECT  'B' AS TY, 10 AS JAN, 0 AS FEB, 0 AS MAR FROM DUAL UNION ALL
+  SELECT  'C' AS TY, 0 AS JAN, 0 AS FEB, 8 AS MAR FROM DUAL
+)
+SELECT  *
+FROM  SD
+UNPVIOT (
+    CNT
+    FOR 'MM' IN ('JAN', 'FEB', 'MAR')
+)
 ```

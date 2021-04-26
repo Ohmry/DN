@@ -4,6 +4,8 @@
   - [커서(CURSOR) 사용 예제](docs/oracle.md#커서cursor-사용-예제)
   - [반복문(WHILE) 사용 예제](docs/oracle.md#반복문while-사용-예제)
   - [시퀀스 제어 예제](docs/oracle.md#시퀀스-제어-예제)
+  - [PIVOT 예제](docs/oracle.md#pivot-예제)
+  - [UNPIVOT 예제](docs/oracle.md#unpivot-예제)
 
 - **Vuejs**
   - [Render 함수를 이용한 Component 작성 방법](docs/vuejs.md#vuejs에서-render-함수를-이용한-component-작성-방법)
