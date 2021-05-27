@@ -15,6 +15,7 @@
 
 - **Electron**
   - [프레임이 없는 창을 만들 때, 드래그 기능 추가하는 방법](docs/electron.md#프레임이-없는-창을-만들-때-드래그-기능-추가하는-방법)
+  - [Electron에 SqlLite3 연동해서 간단한 메모장 만드는 링크](https://kyuhyuk.kr/article/electron/2020/02/12/Electron-EleMemo)
 
 - **IntelliJ**
   - [Properties 파일이 깨져서 나올 때, 한글 인코딩 설정하는 방법](docs/intellij.md#properties-파일이-깨져서-나올-때-한글-인코딩-설정하는-방법)
